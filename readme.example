@@ -1,0 +1,8 @@
+Input: "BBAA"
+
+Rotation 0 → "BBAA" → prefix fails (B count > A count).
+
+Rotation 1 → "BAAB" → prefix fails.
+
+Rotation 2 → "AABB" → balanced ✅.
+Answer = 2.
