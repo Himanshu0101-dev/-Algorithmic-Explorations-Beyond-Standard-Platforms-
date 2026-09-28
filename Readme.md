@@ -1,0 +1,5 @@
+print(min_rotations_balanced("AABB"))   # Output: 0 (already balanced)
+print(min_rotations_balanced("BBAA"))   # Output: 2 (rotate twice → "AABB")
+print(min_rotations_balanced("ABAB"))   # Output: -1 (cannot be balanced)
+print(min_rotations_balanced("AAABBB")) # Output: 0 (already balanced)
+print(min_rotations_balanced("BAAB"))   # Output: 1 (rotate once → "AABB")
